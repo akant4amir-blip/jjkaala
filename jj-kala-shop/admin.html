@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پنل مدیریت - جی جی کالا</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #ef394e;
+            --secondary-color: #f0f0f1;
+            --text-primary: #3f4064;
+            --text-secondary: #81858b;
+            --border-color: #e0e0e6;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="admin-root"></div>
+    <script type="text/babel" src="components/AdminLogin.js"></script>
+    <script type="text/babel" src="components/AdminPanel.js"></script>
+    <script type="text/babel" src="components/ProductForm.js"></script>
+    <script type="text/babel" src="admin-app.js"></script>
+</body>
+</html>

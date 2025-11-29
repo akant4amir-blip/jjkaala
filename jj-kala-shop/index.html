@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جی جی کالا - فروشگاه اینترنتی</title>
+    <meta name="description" content="فروشگاه اینترنتی جی جی کالا - خرید آنلاین انواع محصولات با بهترین قیمت">
+    <meta name="keywords" content="فروشگاه آنلاین, خرید اینترنتی, جی جی کالا">
+    <meta property="og:title" content="جی جی کالا - فروشگاه اینترنتی">
+    <meta property="og:description" content="فروشگاه اینترنتی جی جی کالا - خرید آنلاین انواع محصولات">
+    <meta name="twitter:title" content="جی جی کالا - فروشگاه اینترنتی">
+    <meta name="twitter:description" content="فروشگاه اینترنتی جی جی کالا">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #ef394e;
+            --secondary-color: #f0f0f1;
+            --text-primary: #3f4064;
+            --text-secondary: #81858b;
+            --border-color: #e0e0e6;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'IRANSans', 'Tahoma', sans-serif;
+            color: var(--text-primary);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Categories.js"></script>
+    <script type="text/babel" src="components/ProductCard.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
